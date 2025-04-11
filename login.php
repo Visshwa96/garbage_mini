@@ -50,7 +50,7 @@ if($rows>0)
 	 }
 	elseif($det['ucat']=='patient')
 	 {
-		 header("location:apatient/index.html?user=$us");
+		 header("location:apatient/index.php?user=$us");
 	 }
 	elseif($det['ucat']=='delivery')
 	 {
